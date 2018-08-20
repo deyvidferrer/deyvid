@@ -1,0 +1,24 @@
+<!-- Footer -->
+  <footer id="footer">
+    <div class="inner">
+      {%- include social.html -%}
+      <ul class="copyright">
+        <li>&copy; {{- site.email | escape -}}</li><li>Design:
+          <a href="{{- site.email | escape -}}">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+          </a></li>
+      </ul>
+    </div>
+  </footer>
+
+<!-- Scripts -->
+  <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/jquery.poptrox.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/browser.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/breakpoints.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/util.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/main.js"></script>
