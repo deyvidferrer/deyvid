@@ -21,8 +21,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   I'm available for remote work
 bio_intro: >- # this means to ignore newlines until "baseurl:"
   Hi! I'm Deyvid (pronounced "David"),
-  a software developer with over 8 years of experiences.
-  Currently building the Backend at Kiiah.
+  a software developer with over <strong>8 years of experiences</strong>.
+  Currently building the <a href="https:www.kiiah.com">Backend at Kiiah</a>.
 bio_descr: >- # this means to ignore newlines until "baseurl:"
   I've always been drawn to the overlap between design and development.
   My skills are broad: from ux to design, front end to back end development.
