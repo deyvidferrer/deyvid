@@ -16,6 +16,23 @@
 $size-header-width: 35%;
 $size-header-pad: 4em;
 
+.accent1{
+	color: _palette(accent1, bg);
+}
+
+.accent2 {
+	color:_palette(accent2, bg);
+}
+
+.accent1-bg{
+	background-color:_palette(accent1, bg);
+}
+
+.accent2-bg {
+	background-color:_palette(accent2, bg);
+}
+
+
 // Breakpoints.
 
 	@include breakpoints((

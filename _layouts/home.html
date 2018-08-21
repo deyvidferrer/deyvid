@@ -10,7 +10,7 @@ layout: default
 						<p>{{site.bio_descr}}</p>
 
 						<header class="major">
-							<h3>What I do / Lo que hago</h3>
+							<h3>What I do</h3>
 						</header>
 						{{site.what_i_do}}
 						<!-- <ul class="actions">
@@ -30,16 +30,16 @@ layout: default
 						<p>Let's build something together! Or email me if you have any other questions.</p>
 						<div class="row">
 							<div class="col-8 col-12-small">
-								<form name="contact" method="POST" netlify>
+								<form action="/" name="contact" method="POST" netlify>
 									<div class="row gtr-uniform gtr-50">
 										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
 										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
 										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
 									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" /></li>
+									</ul>
 								</form>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
 							</div>
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
