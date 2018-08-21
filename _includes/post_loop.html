@@ -1,0 +1,19 @@
+{%- if site.posts.size > 0 -%}
+  <h2>{{ page.list_title | default: "Recent Works" }}</h2>
+  <div class="row">
+      {%- for post in site.posts -%}
+      <article class="col-6 col-12-xsmall work-item align-center">
+        <a href="{{ site.baseurl }}/assets/images/fulls/{{ post.image }}" class="image fit thumb"><img src="{{ site.baseurl }}/assets/images/thumbs/{{ post.image }}" alt="" /></a>
+        <a href="{{ post.url | relative_url }}"><h3>{{ post.title | escape }}</h3>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <p>{{ post.date | date: date_format }}</p>
+          <!-- {{ post.excerpt | strip_html }} -->
+        <ul class="actions fit small">
+          <li><a href="{{ post.url | relative_url }}" class="button primary fit small">Ver mas</a></li>
+        </ul>
+      </article>
+      {%- endfor -%}
+    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+ {%- endif -%}
+
+</div>

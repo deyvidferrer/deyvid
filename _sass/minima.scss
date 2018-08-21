@@ -338,6 +338,21 @@ $size-header-pad: 4em;
 		&.special {
 			text-align: center;
 		}
+		dt,dd{
+			display: inline-block;
+		}
+		dt {
+			&:after {
+				content: ':';
+				white-space: pre;
+				//content: none;
+			}
+		}
+		dt {
+			font-weight: bold;
+			text-decoration: underline;
+			color: _palette(accent1,bg);
+		}
 	}
 
 	header {
@@ -1149,7 +1164,7 @@ $size-header-pad: 4em;
 		width: calc(100% - #{$size-header-width});
 
 		> section {
-			border-top: solid 2px _palette(border);
+			border-top: solid 2px _palette(border2);
 			margin: $size-header-pad 0 0 0;
 			padding: $size-header-pad 0 0 0;
 
