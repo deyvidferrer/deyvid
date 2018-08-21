@@ -692,6 +692,10 @@ $size-header-pad: 4em;
 			margin: 0 0 _size(element-margin) 0;
 			width: 100%;
 
+			&:before {
+				opacity: 0;
+			}
+
 			img {
 				width: 100%;
 			}
