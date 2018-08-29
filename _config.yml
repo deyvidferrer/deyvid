@@ -58,11 +58,13 @@ mobile: (+54) 911 39484008
 
 # Build settings
 baseurl: "" # the subpath of your site, e.g. /blog
+google_analytics: UA-124843267-1
 url: "http://deyvidferrer.me" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
