@@ -1140,6 +1140,9 @@ $size-header-pad: 4em;
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
 			width: 7.25em;
 			border: 4px _palette(bg) solid;
+			@include breakpoint('<=xsmall') {
+				visibility: hidden;
+			}
 		}
 	}
 
