@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   freelance developer & designer.<br />
   I'm available for remote work
 bio_intro: >- # this means to ignore newlines until "baseurl:"
-  Hi! I'm Deyvid (pronounced "David"),
+  Hi! I'm <strong class="">Deyvid</strong> (pronounced "David"),
   a software developer with over <strong>8 years of experiences</strong>.
   Currently building the <a href="https://www.kiiah.com/">Backend at Kiiah</a>.
 bio_descr: >- # this means to ignore newlines until "baseurl:"

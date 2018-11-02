@@ -26,7 +26,7 @@
 
 // Palette.
 	$palette: (
-		bg:					#f4f4f4,
+		bg:					#f3f3f3,
 		fg:					#a2a2a2,
 		fg-bold:			#787878,
 		fg-light:			#b2b2b2,
@@ -36,10 +36,10 @@
 		border2-bg:			#e7e7e7,
 
 		accent1: (
-			bg:				#4ECDC4,
-			fg:				mix(#4ECDC4, #ffffff, 25%),
+			bg:				#fa365c,
+			fg:				mix(#fa365c, #ffffff, 25%),
 			fg-bold:		#ffffff,
-			fg-light:		mix(#4ECDC4, #ffffff, 40%),
+			fg-light:		mix(#fa365c, #ffffff, 40%),
 			border:			rgba(255,255,255,0.25),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(255,255,255,0.5),
@@ -47,7 +47,7 @@
 		),
 
 		accent2: (
-			bg:				#EE6055,
+			bg:				#163671,
 			fg:				rgba(255,255,255,0.5),
 			fg-bold:		#ffffff,
 			fg-light:		rgba(255,255,255,0.4),
